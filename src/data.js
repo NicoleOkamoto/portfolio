@@ -58,3 +58,24 @@ export const skills = [
   "GraphQL",
   "Material UI",
 ];
+
+export const badges = [
+  {
+    image: "./CSM.png",
+    link: "https://bcert.me/bc/html/show-badge.html?b=bkqfvtod",
+    name: "Certified ScrumMaster®",
+    badgeId: "001657175"
+  },
+  {
+    image: "./WES.png",
+    link: "https://www.credly.com/badges/36f8f2c7-8692-4928-8505-9a61db19aae3/linked_in_profile",
+    name: "Verified International Academic Qualifications",
+  },
+  {
+    image: "./analytics.png",
+    link: "https://skillshop.credential.net/ed083a7b-48f7-4ffc-82ce-b2e22ac2d608",
+    name: "Google Analytics Certification",
+    badgeId: "97315860"
+  },
+
+]

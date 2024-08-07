@@ -1,5 +1,8 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from './ThemeContext';
+import {
+  Button
+} from "@nicoleokamoto/react-ui-component-library";
 
 
 export default function About() {
@@ -25,6 +28,9 @@ export default function About() {
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Work With Me
             </a>
+            <div className="centered-item">
+              <Button variant="outlined" backgroundColor="#AC3B61" label="Click Me" />
+            </div>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
