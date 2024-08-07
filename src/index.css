@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Light Theme */
+.light-theme {
+  @apply bg-white text-black;
+}
+
+/* Dark Theme */
+.dark-theme {
+  @apply bg-black text-white;
+}
+
+html {
+}
+
+html.dark {
+  background-color: #000000;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
