@@ -66,7 +66,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-xl lg:w-full md:w-1/2 p-0 m-0">
           {theme === 'light' ? (
             <video
               src={lightModeVideo}

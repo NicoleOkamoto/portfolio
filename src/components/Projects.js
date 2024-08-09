@@ -28,14 +28,19 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                 />
 
-                <div className="absolute inset-0 z-10 px-8 py-6 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="absolute inset-0 z-10 px-4 py-2 md:px-8 md:py-6 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <img
+                    alt="github"
+                    src={"./logos/github_white.png"}
+                    style={{ width: "auto", height: "30px" }}
+                  />
                   <h2 className="tracking-widest text-sm title-font font-medium text-red-600 mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-md md:text-large font-medium text-white mb-1 md:mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-tight md:leading-normal">{project.description}</p>
                 </div>
               </div>
             </a>

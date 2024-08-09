@@ -246,9 +246,9 @@
     prop-types "^15.8.1"
 
 "@heroicons/react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@heroicons/react/-/react-1.0.1.tgz"
-  integrity sha512-uikw2gKCmqnvjVxitecWfFLMOKyL9BTFcU4VM3hHj9OMwpkCr5Ke+MRMyY2/aQVmsYs4VTq7NCFX05MYwAHi3g==
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/@heroicons/react/-/react-1.0.6.tgz"
+  integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
 
 "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.5"

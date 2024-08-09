@@ -26,7 +26,7 @@ export default function Skills() {
             <div key={skill.name} className="p-2 sm:w-1/5 w-full">
               <div className={`rounded flex flex-col items-center p-6 h-full shadow-2lg hover:shadow-lg ${theme === 'dark' ? 'bg-gray-800' : 'bg-gray-100'}`}>
                 <img
-                  alt="gallery"
+                  alt="logo"
                   className="w-full h-full object-cover object-center rounded mb-4"
                   src={skill.logo}
                   style={{ width: "auto", height: "80px" }}

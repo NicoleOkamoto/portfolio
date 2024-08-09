@@ -3,7 +3,7 @@ export const projects = [
     title: "Content Management System",
     subtitle: "PHP and JavaScript",
     description:
-      "This project is a custom CMS designed to offer a seamless experience for both users and administrators. Users can log in to access exclusive content, private pages, and important documents. Administrators have powerful tools at their disposal, including the ability to create new users, update the cover hero image, write and publish blog posts, create new pages, and manage blog comments.",
+      "Custom CMS designed to offer a seamless experience for both users and administrators. Users can log in to access exclusive content, private pages, and important documents. Administrators can create new users, update the cover hero image, write and publish blog posts, create new pages, and manage blog comments.",
     image: "./project-1.mp4",
     link: "https://github.com/NicoleOkamoto/SET-CMS",
   },
@@ -99,7 +99,7 @@ export const skills = [
     name: "MySQL"
   },
   {
-    logo: "./logos/Klaviyo.png",
+    logo: "./logos/klaviyo.png",
     name: "Klaviyo"
   },
   {

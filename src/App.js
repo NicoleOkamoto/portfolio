@@ -9,8 +9,6 @@ import Footer from "./components/Footer";
 import { ThemeProvider } from "./components/ThemeContext";
 import './index.css';
 
-
-
 export default function App() {
   return (
     <ThemeProvider>
