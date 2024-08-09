@@ -11,6 +11,10 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Projects
           </h1>
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            See below my recent projects. For a closer look at the code and technical details,
+            visit my GitHub via the link above. Dive into the source code to see the development behind these projects.
+          </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
@@ -30,9 +34,10 @@ export default function Projects() {
 
                 <div className="absolute inset-0 z-10 px-4 py-2 md:px-8 md:py-6 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <img
+                    className="absolute"
                     alt="github"
                     src={"./logos/github_white.png"}
-                    style={{ width: "auto", height: "30px" }}
+                    style={{ width: "auto", height: "20px" }}
                   />
                   <h2 className="tracking-widest text-sm title-font font-medium text-red-600 mb-1">
                     {project.subtitle}

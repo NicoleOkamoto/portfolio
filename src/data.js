@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: "Search for Amenities Web Application",
-    subtitle: "Asynchronous JavaScript and XML using Open Data Base",
+    subtitle: "AJAX using Open Data Base",
     description:
       "This is a web application designed to help users find recreational complexes in the city of Winnipeg. The application allows users to search for amenities such as libraries, fitness centers, and parks. It fetches data from an open API, filters it based on user input, and displays the results dynamically.",
     image: "./project-4.mp4",
