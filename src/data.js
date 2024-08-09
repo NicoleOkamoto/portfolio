@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "PHP and JavaScript",
     description:
       "Custom CMS designed to offer a seamless experience for both users and administrators. Users can log in to access exclusive content, private pages, and important documents. Administrators can create new users, update the cover hero image, write and publish blog posts, create new pages, and manage blog comments.",
-    image: "./project-1.mp4",
+    image: "./videos/project-1.mp4",
     link: "https://github.com/NicoleOkamoto/SET-CMS",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React and JavaScript",
     description:
       "A collection of reusable UI components built using React, Webpack 5, Storybook, and Styled Components.",
-    image: "./project-2.mp4",
+    image: "./videos/project-2.mp4",
     link: "https://github.com/NicoleOkamoto/react-ui-component-library",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "PHP - Create, Read, Update and Delete",
     description:
       "This is a simple blog application written in PHP that allows users to create, read, update, and delete blog posts. The application serves as a basic content management system where users can manage their posts easily through a web interface.",
-    image: "./project-3.mp4",
+    image: "./videos/project-3.mp4",
     link: "https://github.com/NicoleOkamoto/PHP_Blog_CRUD",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "AJAX using Open Data Base",
     description:
       "This is a web application designed to help users find recreational complexes in the city of Winnipeg. The application allows users to search for amenities such as libraries, fitness centers, and parks. It fetches data from an open API, filters it based on user input, and displays the results dynamically.",
-    image: "./project-4.mp4",
+    image: "./videos/project-4.mp4",
     link: "https://github.com/NicoleOkamoto/Ajax_Open_Data_Base",
   },
 ];

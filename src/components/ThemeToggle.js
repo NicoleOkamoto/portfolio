@@ -7,7 +7,7 @@ const ThemeToggle = () => {
   return (
     <button onClick={toggleTheme}>
       <img
-        src={theme === 'light' ? '/dark.png' : '/light.png'}
+        src={theme === 'light' ? '/icons/dark.png' : '/icons/light.png'}
         alt={theme === 'light' ? 'Dark Mode' : 'Light Mode'}
         style={{ width: '40px', height: '40px' }}
       />
