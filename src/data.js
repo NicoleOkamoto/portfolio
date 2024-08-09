@@ -1,52 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Content Management System",
+    subtitle: "PHP and JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "This project is a custom CMS designed to offer a seamless experience for both users and administrators. Users can log in to access exclusive content, private pages, and important documents. Administrators have powerful tools at their disposal, including the ability to create new users, update the cover hero image, write and publish blog posts, create new pages, and manage blog comments.",
+    image: "./project-1.mp4",
+    link: "https://github.com/NicoleOkamoto/SET-CMS",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "UI Components Library",
+    subtitle: "React and JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "A collection of reusable UI components built using React, Webpack 5, Storybook, and Styled Components.",
+    image: "./project-2.mp4",
+    link: "https://github.com/NicoleOkamoto/react-ui-component-library",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Blog Application",
+    subtitle: "PHP - Create, Read, Update and Delete",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "This is a simple blog application written in PHP that allows users to create, read, update, and delete blog posts. The application serves as a basic content management system where users can manage their posts easily through a web interface.",
+    image: "./project-3.mp4",
+    link: "https://github.com/NicoleOkamoto/PHP_Blog_CRUD",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Search for Amenities Web Application",
+    subtitle: "Asynchronous JavaScript and XML using Open Data Base",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "This is a web application designed to help users find recreational complexes in the city of Winnipeg. The application allows users to search for amenities such as libraries, fitness centers, and parks. It fetches data from an open API, filters it based on user input, and displays the results dynamically.",
+    image: "./project-4.mp4",
+    link: "https://github.com/NicoleOkamoto/Ajax_Open_Data_Base",
   },
 ];
 
@@ -153,4 +136,23 @@ export const badges = [
     badgeId: "97315860"
   },
 
-]
+];
+
+
+export const educationTimeline = [
+  {
+    title: "Full Stack Web Development Diploma",
+    institution: "Red River College, Winnipeg, Manitoba",
+    year: "Graduation Expected January 2025",
+  },
+  {
+    title: "Business Management Diploma",
+    institution: "College of Technology of Sao Paulo (FATEC), Sao Paulo, Brazil",
+    year: "2018",
+  },
+  {
+    title: "Bachelor in Fashion Design – Product Management",
+    institution: "United Metropolitan College (FMU), Sao Paulo, Brazil",
+    year: "2014",
+  },
+];

@@ -1,10 +1,11 @@
 import React from "react";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
 import Certifications from "./components/Certifications";
+import Footer from "./components/Footer";
 import { ThemeProvider } from "./components/ThemeContext";
 import './index.css';
 
@@ -18,8 +19,9 @@ export default function App() {
         <About />
         <Projects />
         <Skills />
+        <Education />
         <Certifications />
-        <Contact />
+        <Footer />
       </main>
     </ThemeProvider>
   );
