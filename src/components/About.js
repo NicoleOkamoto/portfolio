@@ -37,10 +37,10 @@ export default function About() {
             <span ref={typedRef}></span>
           </h1>
           <h3 className="title-font sm:text-xl text-l mb-1 font-medium text-#172554">
-            <br className="hidden lg:inline-block" />Passionate Full Stack Developer | Problem Solver | Digital Innovator
+            <br className="hidden lg:inline-block" />Passionate Full Stack Developer | Problem Solver
           </h3>
           <p className="mb-8 leading-relaxed">
-            Dedicated and enthusiastic Full Stack Developer with a strong foundation in web development and digital marketing. I bring a unique blend of creativity and technical expertise, honed through my diverse background in business management and e-commerce. With a commitment to continuous learning and a knack for problem-solving, I'm excited to contribute to innovative projects and deliver exceptional user experiences. Let's build something amazing together!
+            Dedicated and enthusiastic Full Stack Developer with a strong foundation in web development and business management. I bring a unique blend of creativity and technical expertise, honed through my diverse background in business management, digital marketing and e-commerce. With a commitment to continuous learning and a knack for problem-solving, I'm excited to contribute to innovative projects and deliver exceptional user experiences. Let's build something amazing together!
           </p>
           <div className="flex justify-center space-x-4">
             <a
