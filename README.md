@@ -1,6 +1,8 @@
 # Running the Portfolio Application
 
-This project is Nicole's Okamoto Full Stack Web Development portfolio.
+This project showcases Nicole Okamoto's Full Stack Web Development portfolio, built using React and featuring some of the custom UI components developed by myself.
+
+### 🚀 Check Out My Portfolio Live at [nicoleokamoto.io](https://nicoleokamoto.io)
 
 ## Requirements
 
@@ -15,8 +17,8 @@ Follow these steps to get the web application running on `localhost:5575` (127.0
 If you haven't already, clone the repository containing the project files:
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone [<repository_url>](https://github.com/NicoleOkamoto/NicoleOkamoto.git)
+cd NicoleOkamoto
 ```
 
 To find the repository_url On GitHub:
